@@ -52,16 +52,7 @@ Das Attribut `d` des &lt;path&gt; tags beinhaltet die Koordinaten und Richtungsa
 
 Das Tag &lt;animate&gt; bzw. &lt;animateTransform&gt;, &lt;animateMotion&gt; und einige weitere Variationen erlauben das animieren von Elementen über verschiedene Parameter. `attributeName` gibt dabei an welches Attribut im Laufe der Animation verändert wird. &lt;animateTransform&gt; erlaubt Transformationsbasierte Animation wie wie z.B. das rotieren mit `rotate` oder skalieren mit `scale`, ausserdem sind einfache bewegungen mit `translate` möglich. Die Parameter `from` und `to` geben eine Start und Endposition des Animierten Elements an, `dur` die Dauer der Animation und `repeatCount` gibt an wie oft die Animation wiederholt werden soll.
 
-<svg width="1000" heigth="300" viewBox="0 0 1000 300">
-  <path fill="none" stroke="#ffffff" stroke-width="2" d="M200, 120 h50 l20, -60 l20, 120 l20, -60 h50 ">
-  <animateTransform attributeName="transform"
-                          type="rotate"
-                          from="0 260 150"
-                          to="362 300 150"
-                          dur="5s"
-                          repeatCount="indefinite"/>
-  </path>
-</svg>
+<img src="example_1.svg">
 
 Mit  &lt;animateMotion&gt; lassen sich Elemente an einem Pfad entlang bewegen und so komplexere Bewegungen animieren.
 
