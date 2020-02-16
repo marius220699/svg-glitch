@@ -20,7 +20,7 @@ In diesem Beispiel ist die `viewBox` um 100 Einheiten nach rechts verschoben, so
 
 Das Attribut `d` des &lt;path&gt; tags beinhaltet die Koordinaten und Richtungsanweisungen nach denen sich der Pfad bewegt. Die Anweisungen werden mit M, L, H, V, C, S, Q, T und Z, wobei jede Anweisung als Groß oder Kleinbuchstabe angegeben werden kann. Versalien bedeuten dabei stets, dass die angegebenen Koordinaten absolute Koordinaten sind, während Kleinbuchstaben immer Koordinatenverschiebungen relativ zur aktuellen Position angeben. M bewegt z.B. einen imaginären Cursor zu den angegeben Koordinaten, L zieht eine Linie zu von einem Start zu einem Endpunkt. Auf diesem Wege lassen sich sowohl leicht grobe Umrisse skizzieren, als auch komplexe Muster und Formen erstellen.
 
-<img src="example_1.svg">
+<img src="example_1.png">
 
 
 ### **Animate**
@@ -46,7 +46,7 @@ Die Emojis dieser Kategorie wurden durch das mixen einzelner Emojis entstanden b
 ## **Schneemann**
 Die Grundlage für diese Kreation war ein Surfer-Emoji, dessen Körper mit einem Schneemann ersetzt wurde, dessen Kopf wiederrum mit dem Weltkugel Emoji ersetzt wurde, ausserdem hält er in der rechten Hand einen Krug Mango-Maracujaschorle mit Schlagsahne.
 
-<img src="./die_guten/remix/a_holbe.svg">
+<img src="./die_guten/remix/a_holbe.png">
 
 ## **Surfing Lion**
 
@@ -59,18 +59,18 @@ Alle dem Kopf des Surfers zugehörigen Elemente wurden mit einem Löwenkopf SVG 
 
 Hier haben wir an der offenen stelle des Schädels ein Hirn eingefügt.
 
-<img src="./die_guten/remix/zombie.svg">
+<img src="./die_guten/remix/zombie.png">
 
 ### **Verzerrt**
 Diese Kunstwerke entstanden durch das verschieben der Füllfläche von Emojis, während die schwarzen Konturpfade nicht berührt worden sind. Die anderen Flächen und Details bestanden aus einer inkonsequenten Mischung aus Versalien und Kleinbuchstaben, sodass das verschieben der Startposition der Pfade nur einen gewissen Anteil des Elements betraf, so entstand eine Art aufteilender Effekt der ein Emoji in zwei Teile spaltet, aber dennoch verbunden bleibt durch die Absoluten Koordinatenangaben der Pfade.
 
 ## **Dripping Unicorn**
 
-<img src="./die_guten/verzerrt/drippingUnicorn.svg">
+<img src="./die_guten/verzerrt/drippingUnicorn.png">
 
 ## **Split Lion**
 
-<img src="./die_guten/verzerrt/lion.svg">
+<img src="./die_guten/verzerrt/lion.png">
 
 
 ### **Animiert**
