@@ -14,7 +14,7 @@ Die `viewBox` eines SVGs braucht vier Parameter und gibt an welcher Bereich des 
 
 In diesem Beispiel ist die `viewBox` um 100 Einheiten nach rechts verschoben, so wird der negative Bereich der x-Achse gezeigt, während die Sonne sich noch immer am Nullpunkt befindet. Daher wird auch der Rote Kreis mit einem negativen x-Wert sichtbar, der sich bei einer `viewBox` an den Koordinaten 0, 0 ausserhalb des Sichtfelds befinden würde.
 
-<img src="example_0.svg">
+<img src="example_0.png">
 
 ### **Path**
 
