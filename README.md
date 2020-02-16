@@ -20,16 +20,24 @@ In diesem Beispiel ist die `viewBox` um 100 Einheiten nach rechts verschoben, so
 
 Das Attribut `d` des &lt;path&gt; tags beinhaltet die Koordinaten und Richtungsanweisungen nach denen sich der Pfad bewegt. Die Anweisungen werden mit M, L, H, V, C, S, Q, T und Z, wobei jede Anweisung als Groß oder Kleinbuchstabe angegeben werden kann. Versalien bedeuten dabei stets, dass die angegebenen Koordinaten absolute Koordinaten sind, während Kleinbuchstaben immer Koordinatenverschiebungen relativ zur aktuellen Position angeben. M bewegt z.B. einen imaginären Cursor zu den angegeben Koordinaten, L zieht eine Linie zu von einem Start zu einem Endpunkt. Auf diesem Wege lassen sich sowohl leicht grobe Umrisse skizzieren, als auch komplexe Muster und Formen erstellen.
 
-
 <img src="example_1.svg">
+
+<svg id="emoji" xmlns="http://www.w3.org/2000/svg" width="1000" heigth="250" viewBox="0 00 1000 250">
+ <circle cx="-80.8456" cy="34.789" r="3" fill="#ff0000" stroke="none"/>
+ <g>
+  <path fill="none" stroke="#000000" stroke-width="3" d="M200, 120 h50 l20, -60 l20, 120 l20, -60 h50">
+  </g>
+</svg>
 
 
 ### **Animate**
  Das Tag &lt;animate&gt; bzw. &lt;animateTransform&gt;, &lt;animateMotion&gt; und einige weitere Variationen erlauben das animieren von Elementen über verschiedene Parameter. `attributeName` gibt dabei an welches Attribut im Laufe der Animation verändert wird. &lt;animateTransform&gt; erlaubt Transformationsbasierte Animation wie wie z.B. das rotieren mit `rotate` oder skalieren mit `scale`, ausserdem sind einfache bewegungen mit `translate` möglich. Die Parameter `from` und `to` geben eine Start und Endposition des Animierten Elements an, `dur` die Dauer der Animation und `repeatCount` gibt an wie oft die Animation wiederholt werden soll.
 
 
+<img src="example_2.svg">
+
 <svg width="1000" heigth="300" viewBox="0 0 1000 300">
-  <path fill="none" stroke="#ffffff" stroke-width="2" d="M200, 120 h50 l20, -60 l20, 120 l20, -60 h50 ">
+  <path fill="none" stroke="#000000" stroke-width="2" d="M200, 120 h50 l20, -60 l20, 120 l20, -60 h50 ">
   <animateTransform attributeName="transform"
                           type="rotate"
                           from="0 260 150"
@@ -42,8 +50,10 @@ Das Attribut `d` des &lt;path&gt; tags beinhaltet die Koordinaten und Richtungsa
 
 Mit  &lt;animateMotion&gt; lassen sich Elemente an einem Pfad entlang bewegen und so komplexere Bewegungen animieren.
 
+<img src="example_3.svg">
+
 <svg width="1000" heigth="300" viewBox="0 0 1000 300">
-  <path fill="none" stroke="#ffffff" stroke-width="2" d="M200, 120 h50 l20, -60 l20, 120 l20, -60 h50 ">
+  <path fill="none" stroke="#000000" stroke-width="2" d="M200, 120 h50 l20, -60 l20, 120 l20, -60 h50 ">
   <animateMotion dur="5s" repeatCount="indefinite"
       path="M20,50 C20,-50 180,150 180,50 C180-50 20,150 20,50 z" />
   </path>
@@ -59,6 +69,8 @@ Die Emojis dieser Kategorie wurden durch das mixen einzelner Emojis entstanden b
 
 ## **Schneemann**
 Die Grundlage für diese Kreation war ein Surfer-Emoji, dessen Körper mit einem Schneemann ersetzt wurde, dessen Kopf wiederrum mit dem Weltkugel Emoji ersetzt wurde, ausserdem hält er in der rechten Hand einen Krug Mango-Maracujaschorle mit Schlagsahne.
+
+<img src="./die_guten/remix/a_holbe.svg">
 
 <svg id="emoji" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70.636 86.636">
   <svg id="emoji" xmlns="http://www.w3.org/2000/svg" viewBox="0 10 72 72">
