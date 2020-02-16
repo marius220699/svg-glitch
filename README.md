@@ -22,13 +22,6 @@ Das Attribut `d` des &lt;path&gt; tags beinhaltet die Koordinaten und Richtungsa
 
 <img src="example_1.svg">
 
-<svg id="emoji" xmlns="http://www.w3.org/2000/svg" width="1000" heigth="250" viewBox="0 00 1000 250">
- <circle cx="-80.8456" cy="34.789" r="3" fill="#ff0000" stroke="none"/>
- <g>
-  <path fill="none" stroke="#000000" stroke-width="3" d="M200, 120 h50 l20, -60 l20, 120 l20, -60 h50">
-  </g>
-</svg>
-
 
 ### **Animate**
  Das Tag &lt;animate&gt; bzw. &lt;animateTransform&gt;, &lt;animateMotion&gt; und einige weitere Variationen erlauben das animieren von Elementen über verschiedene Parameter. `attributeName` gibt dabei an welches Attribut im Laufe der Animation verändert wird. &lt;animateTransform&gt; erlaubt Transformationsbasierte Animation wie wie z.B. das rotieren mit `rotate` oder skalieren mit `scale`, ausserdem sind einfache bewegungen mit `translate` möglich. Die Parameter `from` und `to` geben eine Start und Endposition des Animierten Elements an, `dur` die Dauer der Animation und `repeatCount` gibt an wie oft die Animation wiederholt werden soll.
@@ -36,28 +29,11 @@ Das Attribut `d` des &lt;path&gt; tags beinhaltet die Koordinaten und Richtungsa
 
 <img src="example_2.svg">
 
-<svg width="1000" heigth="300" viewBox="0 0 1000 300">
-  <path fill="none" stroke="#000000" stroke-width="2" d="M200, 120 h50 l20, -60 l20, 120 l20, -60 h50 ">
-  <animateTransform attributeName="transform"
-                          type="rotate"
-                          from="0 260 150"
-                          to="362 300 150"
-                          dur="5s"
-                          repeatCount="indefinite"/>
-  </path>
-</svg>  
-
 
 Mit  &lt;animateMotion&gt; lassen sich Elemente an einem Pfad entlang bewegen und so komplexere Bewegungen animieren.
 
 <img src="example_3.svg">
 
-<svg width="1000" heigth="300" viewBox="0 0 1000 300">
-  <path fill="none" stroke="#000000" stroke-width="2" d="M200, 120 h50 l20, -60 l20, 120 l20, -60 h50 ">
-  <animateMotion dur="5s" repeatCount="indefinite"
-      path="M20,50 C20,-50 180,150 180,50 C180-50 20,150 20,50 z" />
-  </path>
-</svg>
 
 ##  **Ergebnisse**
 
@@ -94,10 +70,7 @@ Diese Kunstwerke entstanden durch das verschieben der Füllfläche von Emojis, w
 
 ## **Split Lion**
 
-
-
 <img src="./die_guten/verzerrt/lion.svg">
-
 
 
 ### **Animiert**
