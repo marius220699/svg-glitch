@@ -14,18 +14,14 @@ Die `viewBox` eines SVGs braucht vier Parameter und gibt an welcher Bereich des 
 
 In diesem Beispiel ist die `viewBox` um 100 Einheiten nach rechts verschoben, so wird der negative Bereich der x-Achse gezeigt, während die Sonne sich noch immer am Nullpunkt befindet. Daher wird auch der Rote Kreis mit einem negativen x-Wert sichtbar, der sich bei einer `viewBox` an den Koordinaten 0, 0 ausserhalb des Sichtfelds befinden würde.
 
-<img src="example_1.svg">
+<img src="example_0.svg">
 
 ### **Path**
 
 Das Attribut `d` des &lt;path&gt; tags beinhaltet die Koordinaten und Richtungsanweisungen nach denen sich der Pfad bewegt. Die Anweisungen werden mit M, L, H, V, C, S, Q, T und Z, wobei jede Anweisung als Groß oder Kleinbuchstabe angegeben werden kann. Versalien bedeuten dabei stets, dass die angegebenen Koordinaten absolute Koordinaten sind, während Kleinbuchstaben immer Koordinatenverschiebungen relativ zur aktuellen Position angeben. M bewegt z.B. einen imaginären Cursor zu den angegeben Koordinaten, L zieht eine Linie zu von einem Start zu einem Endpunkt. Auf diesem Wege lassen sich sowohl leicht grobe Umrisse skizzieren, als auch komplexe Muster und Formen erstellen.
 
 
-<svg width="1000" height="250">
-  <path fill="none" stroke="#ffffff" stroke-width="2" d="M200, 120 h50 l20, -60 l20, 120 l20, -60 h50">
-</svg>
-
-
+<img src="example_1.svg">
 
 
 ### **Animate**
@@ -34,6 +30,16 @@ Das Tag &lt;animate&gt; bzw. &lt;animateTransform&gt;, &lt;animateMotion&gt; und
 
 
 <img scr="example_2.gif">
+<svg width="1000" heigth="300" viewBox="0 0 1000 300">
+  <path fill="none" stroke="#ffffff" stroke-width="2" d="M200, 120 h50 l20, -60 l20, 120 l20, -60 h50 ">
+  <animateTransform attributeName="transform"
+                          type="rotate"
+                          from="0 260 150"
+                          to="362 300 150"
+                          dur="5s"
+                          repeatCount="indefinite"/>
+  </path>
+</svg>  
 
 
 Mit  &lt;animateMotion&gt; lassen sich Elemente an einem Pfad entlang bewegen und so komplexere Bewegungen animieren.
