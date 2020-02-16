@@ -34,16 +34,7 @@ Das Tag &lt;animate&gt; bzw. &lt;animateTransform&gt;, &lt;animateMotion&gt; und
 
 
 <img scr="example_2.gif">
-<svg width="1000" heigth="300" viewBox="0 0 1000 300">
-  <path fill="none" stroke="#ffffff" stroke-width="2" d="M200, 120 h50 l20, -60 l20, 120 l20, -60 h50 ">
-  <animateTransform attributeName="transform"
-                          type="rotate"
-                          from="0 260 150"
-                          to="362 300 150"
-                          dur="5s"
-                          repeatCount="indefinite"/>
-  </path>
-</svg>
+
 
 Mit  &lt;animateMotion&gt; lassen sich Elemente an einem Pfad entlang bewegen und so komplexere Bewegungen animieren.
 
