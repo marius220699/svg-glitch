@@ -52,7 +52,7 @@ Die Grundlage für diese Kreation war ein Surfer-Emoji, dessen Körper mit einem
 
 Alle dem Kopf des Surfers zugehörigen Elemente wurden mit einem Löwenkopf SVG ersetzt.
 
-<img src="./die_guten/remix/openmoji.svg">
+<img src="./die_guten/remix/surfing_lion.svg">
 
 
 ## **Zombie**
